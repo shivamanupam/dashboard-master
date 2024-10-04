@@ -1,5 +1,6 @@
 import "./App.css";
 import Dashboard from "./components/Dashboard";
+import Footer from "./components/Footer";
 import Login from "./components/Login";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
 
       <Dashboard />
       <Login />
+      <Footer />
     </div>
   );
 }
